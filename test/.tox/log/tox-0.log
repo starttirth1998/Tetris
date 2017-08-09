@@ -1,0 +1,9 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/usr/bin/python', local('/home/tirth/Semester_3/SSAD/Assignment3/test/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/tirth/Semester_3/SSAD/Assignment3/test/.tox/dist')]
+env: None
+
+  File "setup.py", line 5
+    setup_requires=['pytest-runner', ...],
+                                     ^
+SyntaxError: invalid syntax
